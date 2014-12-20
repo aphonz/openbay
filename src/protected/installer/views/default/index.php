@@ -60,7 +60,7 @@
                             <hr>
                             <div class="form-group <?= !isset($errors['dbHost']) ?: 'has-error' ?>">
                                 <label for="db-host">Host</label>
-                                <input name="Settings[dbHost]"  type="text" class="form-control" id="db-host" placeholder="126.0.0.1">
+                                <input name="Settings[dbHost]"  type="text" class="form-control" id="db-host" placeholder="127.0.0.1">
                             </div>
                             <div class="form-group">
                                 <label for="db-port <?= !isset($errors['dbPort']) ?: 'has-error' ?>">Port</label>
@@ -99,7 +99,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="sphinx-host <?= !isset($errors['sphinxHost']) ?: 'has-error' ?>">Host</label>
-                                <input name="Settings[sphinxHost]" type="text" class="form-control" id="sphinx-host" placeholder="126.0.0.1">
+                                <input name="Settings[sphinxHost]" type="text" class="form-control" id="sphinx-host" placeholder="127.0.0.1">
                             </div>
                             <div class="form-group">
                                 <label for="sphinx-port <?= !isset($errors['sphinxPort']) ?: 'has-error' ?>">Port</label>
